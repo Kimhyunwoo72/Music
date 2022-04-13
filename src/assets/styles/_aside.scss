@@ -1,0 +1,95 @@
+* {
+    color: #fff;
+    font-family: 'NexonLv1Gothic';
+}
+
+
+#aside {
+    width: 245px;
+    height: 100vh;
+    background-color: var(--main_bg);
+    border-right: 1px solid var(--border);
+}
+
+#aside h3 {
+    text-align: center;
+    font-size: 20px;
+    padding: 23px;
+}
+
+.login {
+    width: 169px;
+    height: 50px;
+    border-bottom: 1px solid var(--border);
+    border-top: 1px solid var(--border);
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+}
+
+.login img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    margin-right: 13px;
+}
+
+.chart {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 169px;
+    margin: 0 auto;
+    border-bottom: 1px solid var(--border);
+}
+
+.chart ul li {
+    padding: 5px;
+}
+
+.chart ul li a {
+    display: inline-block;
+    padding-top: 2px;
+    padding-left: 14.5px;
+    vertical-align: top;
+}
+
+.play_list {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 169px;
+    margin: 0 auto;
+    border-bottom: 1px solid var(--border);
+}
+
+.play_list a {
+    vertical-align: top;
+    padding-top: 1px;
+    display: inline-block;
+}
+
+.play_list ul li {
+    display: flex;
+    justify-content: space-between;
+    padding: 7px 0;
+}
+
+.play_list ul li a,
+.play_list ul li i {
+    color: var(--desc);
+}
+
+.info {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 169px;
+    margin: 0 auto;
+}
+
+.info ul li a {
+    display: inline-block;
+    padding: 3px;
+    color: rgba(255, 255, 255, 0.3);
+}
